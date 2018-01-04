@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAKA,EAAG;EACH,SAAS,EAAC,IAAI;EACd,KAAK,ECPU,wBAAqB;EDQpC,gBAAgB,EERN,OAAmB;EFS7B,WAAW,EGTK,kBAAkB;;;AHWlC,EAAG;EACD,SAAS,EAAC,IAAI;EACd,KAAK,ECbQ,wBAAqB;EDclC,gBAAgB,EEdR,OAAmB;EFe3B,WAAW,EIfG,kBAAkB",
-"sources": ["../_sass/style.scss","../_sass/_primarycolor.scss","../_sass/_bgcolor.scss","../_sass/_overskrift.scss","../_sass/undertitel.scss"],
+"mappings": "AAOA,EAAG;EACH,SAAS,EAAC,IAAI;EACd,KAAK,ECTU,wBAAqB;EDUpC,gBAAgB,EEVN,OAAmB;EFW7B,WAAW,EGXK,kBAAkB;;;AHalC,EAAG;EACD,SAAS,EAAC,IAAI;EACd,KAAK,ECfQ,wBAAqB;EDgBlC,gBAAgB,EIhBR,OAAmB;EJiB3B,WAAW,EKjBG,kBAAkB;;;ALmBlC,OACA;EACA,WAAW,EAAE,EAAE;EACf,YAAY,EAAE,EAAE;EAChB,KAAK,EAAC,GAAG;EACT,gBAAgB,EMxBL,OAAgB",
+"sources": ["../_sass/style.scss","../_sass/_primarycolor.scss","../_sass/_bgcolor.scss","../_sass/_overskrift.scss","../_sass/_greybox.scss","../_sass/undertitel.scss","../_sass/_navcolor.scss"],
 "names": [],
 "file": "style.css"
 }
