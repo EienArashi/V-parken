@@ -1,0 +1,17 @@
+@import "primarycolor";
+@import "bgcolor";
+@import "overskrift";
+@import "undertitel";
+
+h1 {
+font-size:900%;
+color:$primarycolor;
+background-color: $bgcolor;
+font-family:$overskrift;
+}
+h2 {
+  font-size:500%;
+  color:$primarycolor;
+  background-color: $bgcolor;
+  font-family:$undertitel;
+}

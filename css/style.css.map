@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,EAAG;EACH,SAAS,EAAC,IAAI;EACd,KAAK,ECPU,wBAAqB;EDQpC,gBAAgB,EERN,OAAmB;EFS7B,WAAW,EGTK,kBAAkB;;;AHWlC,EAAG;EACD,SAAS,EAAC,IAAI;EACd,KAAK,ECbQ,wBAAqB;EDclC,gBAAgB,EEdR,OAAmB;EFe3B,WAAW,EIfG,kBAAkB",
+"sources": ["../_sass/style.scss","../_sass/_primarycolor.scss","../_sass/_bgcolor.scss","../_sass/_overskrift.scss","../_sass/undertitel.scss"],
+"names": [],
+"file": "style.css"
+}
