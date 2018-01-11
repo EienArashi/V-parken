@@ -1,0 +1,31 @@
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 56px;
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  font-family: 'Tangerine', cursive;
+  font-size: 56px;
+  text-align: center;
+  color: blue;
+}
+
+body {
+  background-color: red;
+}
+
+.greyBox {
+  background-color: red;
+}
+
+.AktivitetsBilleder img {
+  height: 80px;
+  width: 130px;
+}
+
+.SamfundsBilleder img {
+  height: 80px;
+  width: 130px;
+}

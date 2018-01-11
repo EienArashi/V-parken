@@ -1,0 +1,204 @@
+.glogo {
+  width: 35%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.background {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  background-color: #e9e9e9;
+}
+
+.navbox {
+  text-align: center;
+  background-color: #1c1c1c;
+  margin-bottom: 8%;
+  width: 100%;
+  padding-top: 1.7%;
+  padding-bottom: 1.7%;
+}
+
+.navbox a:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: rgba(136, 63, 165, 0.82);
+  text-shadow: 0 0 0.2em black;
+}
+
+.navbox a {
+  color: white;
+  text-decoration: none;
+  font-family: Corbel, sans-serif;
+  font-weight: bold;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: 110%;
+}
+
+.help {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 0;
+}
+
+.parkour {
+  float: left;
+  height: 100%;
+  width: 50%;
+  margin-bottom: 10%;
+}
+
+.graff, .kultur {
+  height: 50%;
+  width: 50%;
+}
+
+.kultur {
+  margin-bottom: 10%;
+}
+
+.purplebar {
+  background-color: rgba(136, 63, 165, 0.82);
+  margin-bottom: 8%;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.toprow {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.test2 {
+  font-family: Oswald, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.test {
+  font-family: Oswald, sans-serif;
+  font-size: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.box1 {
+  width: 20%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.box2 {
+  width: 20%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.box3 {
+  width: 20%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.box4 {
+  width: 20%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.doublewrap {
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tilbyder {
+  width: 60%;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 5%;
+}
+
+.tilbyder p {
+  font-family: Corbel, sans-serif;
+  font-size: 150%;
+}
+
+footer {
+  background-color: #1c1c1c;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding: 45px;
+  margin-top: 80px;
+}
+
+footer, .links {
+  list-style: none;
+  font-weight: bold;
+  padding: 35px 0 23px;
+  margin: 0;
+}
+
+.links a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+  font-family: Oswald, sans-serif;
+}
+
+.navn, .footslogan {
+  color: darkgrey;
+  font-size: 120%;
+  font-family: Corbel, sans-serif;
+}
+
+/*# sourceMappingURL=index.css.map */

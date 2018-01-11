@@ -5,12 +5,20 @@
 @import "greybox";
 @import "navcolor";
 
+.glogo {
+  width: 35%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 .background{
   margin-left: 5%;
   margin-right: 5%;
   width:90%;
   background-color: $bgcolor;
 }
+
 .navbox {
   text-align: center;
   background-color:$navcolor;
@@ -19,7 +27,8 @@
   padding-top: 1.7%;
   padding-bottom: 1.7%;
 }
-a:hover{
+
+.navbox a:hover{
 
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
@@ -27,35 +36,41 @@ a:hover{
   text-shadow: 0 0 0.2em black;
 }
 
-a{
+
+.navbox a{
 color:white;
   text-decoration: none;
   font-family: $undertitel;
-  font-weight:bolder;
+  font-weight:bold;
   margin-left: 4%;
   margin-right:4%;
   font-size: 110%;
 }
 
-.dance {
-float:left;
-height:31%;
-width:31%;
-margin-left:20%;
+.help {
+  width:60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 0;
+
 }
-.skate, .song {
-height:30.05%;
-width:30.05%;
+.parkour {
+float:left;
+height:100%;
+width:50%;
+margin-bottom: 10%;
+}
+.graff, .kultur {
+height:50%;
+width:50%;
 }
 
-.song {
-  margin-bottom: 5%;
-  margin-top: -0.3%;
+.kultur {
+  margin-bottom: 10%;
 }
 
 .purplebar {
 background-color: $primarycolor;
-text-align: center;
 margin-bottom: 8%;
 width:100%;
 padding-top:1%;
@@ -64,19 +79,53 @@ border-color: black;
 border-width:1px;
 border-style:solid;
 }
-.toprow a {
-margin-left: 4%;
-margin-right:4%;
-font-family:$overskrift;
-font-size: 120%;
+
+.toprow {
+  width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display:flex;
+  flex-direction: row;
 }
 
-.botrow a {
-  margin-left: 3.8%;
-  margin-right:3.8%;
-  font-family:$undertitel;
+
+
+.test2 {
+  font-family:$overskrift;
   font-size: 100%;
+  font-weight:bold;
+  text-decoration: none;
+  color:white;
 }
+.test{
+  font-family:$overskrift;
+  font-size: 100%;
+  text-decoration: none;
+  color:white;
+}
+
+.box1 {
+width:20%;
+margin-right: 2.5%;
+margin-left: 2.5%;
+}
+
+.box2 {
+width:20%;
+margin-right: 2.5%;
+margin-left: 2.5%;
+}
+.box3  {
+width:20%;
+margin-right: 2.5%;
+margin-left: 2.5%;
+}
+.box4  {
+width:20%;
+margin-right: 2.5%;
+margin-left: 2.5%;
+}
+
 .doublewrap {
   width:60%;
   height:auto;
@@ -110,6 +159,7 @@ text-align: center;
 background-color: white;
 border-width:1px;
 border-style:solid;
+margin-bottom: 5%;
 }
 
 .tilbyder p
@@ -118,27 +168,34 @@ font-family: $undertitel;
 font-size:150%;
 }
 
-footer{
-  text-align: center;
-  background-color:$navcolor;
-  margin-top:10%;
-  width:100%;
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
+  footer{
+	background-color: $navcolor;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 45px;
+	margin-top: 80px;
 }
 
-.kontaktos
-{
-color:white;
-font-style: $overskrift;
-font-size:130%;
-font-weight: bold;
+
+footer, .links{
+	list-style: none;
+	font-weight: bold;
+	padding: 35px 0 23px;
+	margin: 0;
 }
 
-.information{
-  color:lightgrey;
+.links a{
+	display:inline-block;
+	text-decoration: none;
+	color: white;
+  font-size:150%;
+  font-family: $overskrift;
 }
 
-.information2{
-  color:lightgrey;
+.navn, .footslogan {
+  color:darkgrey;
+  font-size: 120%;
+  font-family: $undertitel;
 }

@@ -1,0 +1,151 @@
+@import "primarycolor";
+@import "bgcolor";
+@import "overskrift";
+@import "undertitel";
+@import "greybox";
+@import "navcolor";
+
+.background {
+  background-color: $bgcolor;
+  width:90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+font-size:400%;
+color:$primarycolor;
+background-color: $bgcolor;
+font-family:$overskrift;
+text-align: center;
+}
+
+h2 {
+  font-size:200%;
+  color:$primarycolor;
+  background-color: $greybox;
+  font-family:$undertitel;
+  text-align: center;
+}
+
+.kontaktos {
+  color: white;
+  font-style: Oswald, sans-serif;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.information {
+  color: lightgrey;
+}
+
+.information2 {
+  color: lightgrey;
+}
+
+.info1 {
+  font-size: 150%;
+  color: white;
+  background-color: $navcolor;
+}
+
+.info2 {
+  font-size: 150%;
+  color: white;
+  background-color: #A3A3A3;
+}
+
+.info3 {
+  font-size: 150%;
+  color: white;
+  background-color: $greybox;
+}
+
+div {
+
+  border-style: hidden;
+  width: 60%;
+  margin: auto;
+}
+
+.top {
+  padding-top: 10px;
+}
+
+.bottom {
+  padding-bottom: 30px;
+}
+
+.gplogo {
+  display: block;
+  width: 20%;
+  height: auto;
+  margin: auto;
+}
+
+.glogo {
+  width: 35%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.navbox {
+  text-align: center;
+  background-color:$navcolor;
+  margin-bottom: 8%;
+  width:100%;
+  padding-top: 1.7%;
+  padding-bottom: 1.7%;
+}
+.navbox a:hover{
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: $primarycolor;
+  text-shadow: 0 0 0.2em black;
+}
+.information {
+  color:$primarycolor;
+  font-family: $undertitel;
+  text-decoration: none;
+  font-weight:bold;
+  margin-left: 4%;
+  margin-right:4%;
+  font-size: 110%;
+}
+.aktiviteter, .nyheder, .galleri, .kontakt{
+  color:white;
+  text-decoration: none;
+  font-family: $undertitel;
+  font-weight:bold;
+  margin-left: 4%;
+  margin-right:4%;
+  font-size: 110%;
+}
+footer{
+	background-color: $navcolor;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 45px;
+	margin-top: 80px;
+}
+footer, .links{
+	list-style: none;
+	font-weight: bold;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+.links a{
+	display:inline-block;
+	text-decoration: none;
+	color: white;
+  font-size:150%;
+  font-family: $overskrift;
+}
+.navn, .footslogan {
+  color:darkgrey;
+  font-size: 120%;
+  font-family: $undertitel;
+}

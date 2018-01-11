@@ -1,0 +1,558 @@
+@charset "UTF-8";
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 56px;
+  color: black;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.greyBox1 {
+  background-color: #e9e9e9;
+  max-width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 1%;
+}
+
+.AktivitetsBilleder {
+  background-color: #d0d0d0;
+  margin: 5%;
+  padding: 5%;
+}
+.AktivitetsBilleder img {
+  margin: 0.5%;
+  padding: 2px 2px 2px 2px;
+  height: 220px;
+  width: 320px;
+}
+
+.SamfundsBilleder {
+  background-color: #d0d0d0;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  padding: 5%;
+}
+.SamfundsBilleder img {
+  margin: 0.5%;
+  padding: 2px 2px 2px 2px;
+  height: 220px;
+  width: 320px;
+}
+
+/*------------------------------------------------------------------*/
+/*logo*/
+.glogo {
+  width: 30%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/*-----------Navigations bar------------------*/
+.navbox {
+  text-align: center;
+  background-color: #1c1c1c;
+  margin-bottom: 8%;
+  width: 100%;
+  padding-top: 1.7%;
+  padding-bottom: 1.7%;
+}
+
+.navbox a:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: rgba(136, 63, 165, 0.82);
+  text-shadow: 0 0 0.2em black;
+}
+
+.galleri {
+  color: rgba(136, 63, 165, 0.82);
+  font-family: Corbel, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: 110%;
+}
+
+.nyheder, .information, .aktiviteter, .kontakt {
+  color: white;
+  text-decoration: none;
+  font-family: Corbel, sans-serif;
+  font-weight: bold;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: 110%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*Urban Dance Aktivitets siden*/
+.timeBoxDance {
+  width: 80%;
+  height: 300px;
+  background-color: purple;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+}
+.timeBoxDance p {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.urbanDanceGrey {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.urbanDanceGrey img {
+  height: 420px;
+  width: 580px;
+}
+
+.DanceText p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+/*Nedenfor er de individuelle Galleri sider*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*Dance Galleri Sider*/
+.DanceGalleri {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.DanceGalleri img {
+  height: 420px;
+  width: 580px;
+  margin-left: 12%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.DanceBilleder {
+  margin: 5%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*VoiceGalleri*/
+.VoiceGalleri {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.VoiceGalleri img {
+  height: 420px;
+  width: 580px;
+  margin-left: 12%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.VoiceBilleder {
+  margin: 5%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*ExplorerGalleri*/
+.ExplorerGalleri {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.ExplorerGalleri img {
+  height: 420px;
+  width: 580px;
+  margin-left: 12%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*EidGalleri*/
+.ExplorerGalleri {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.ExplorerGalleri img {
+  height: 420px;
+  width: 580px;
+  margin-left: 12%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+/*.ExplorerBilleder{
+  margin: 5%;
+}*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*MusicGalleri*/
+.MusicGalleri {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.MusicGalleri img {
+  height: 420px;
+  width: 580px;
+  margin-left: 12%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.MusicBilleder {
+  margin: 5%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/**/
+/*----------------------------------------------------------------------------*/
+/*Explorer Aktivitets Siden*/
+.timeBoxExplorer {
+  width: 80%;
+  height: 300px;
+  background-color: purple;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+}
+.timeBoxExplorer p {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.urbanExplorerGrey {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.urbanExplorerGrey img {
+  height: 420px;
+  width: 580px;
+}
+
+.ExplorerText p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*Music aktivitets siden*/
+.timeBoxMusic {
+  width: 80%;
+  height: 300px;
+  background-color: purple;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+}
+.timeBoxMusic p {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.urbanMusicGrey {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.urbanMusicGrey img {
+  height: 420px;
+  width: 580px;
+}
+
+.MusicText p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Voice Aktivitets siden*/
+.timeBoxVoice {
+  width: 80%;
+  height: 300px;
+  background-color: purple;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+}
+.timeBoxVoice p {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.urbanVoiceGrey {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.urbanVoiceGrey img {
+  height: 420px;
+  width: 580px;
+}
+
+.VoiceText p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+/*---------------------------------------------------------------------------*/
+/*Brandkadet aktivitets siden*/
+.timeBoxBrandkadet {
+  width: 80%;
+  height: 300px;
+  background-color: purple;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+}
+.timeBoxBrandkadet p {
+  text-align: center;
+  color: white;
+}
+
+.BrandText1 {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.BrandkadetGrey {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.BrandkadetGrey img {
+  height: 420px;
+  width: 580px;
+}
+
+.BrandkadetText p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Vejlednings Aktivitets siden*/
+.VejledningText {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.VejledningGrey {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.VejledningGrey img {
+  height: 420px;
+  width: 580px;
+}
+
+.RådgivningText p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Fritid og Job aktiviteter*/
+.JobText {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.JobGrey {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.JobGrey img {
+  height: 420px;
+  width: 580px;
+}
+
+.LommepengeText p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Familie Aktiviteter*/
+.FamilieText {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.FamilieGrey {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.FamilieGrey img {
+  height: 420px;
+  width: 580px;
+}
+
+.ForældreText p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.FeriestøtteText p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/* Overordnede Galleri side*/
+.GalleriClass {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /*background-color:$bgcolor;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 90%;*/
+}
+.GalleriClass img {
+  margin-left: 30%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  height: 220px;
+  width: 320px;
+  border-radius: 5%;
+}
+
+.GreyGalleri {
+  background-color: #d0d0d0;
+  max-width: 90%;
+  margin: 5%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/* den legendariske footer!*/
+footer {
+  background-color: #1c1c1c;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding: 45px;
+  margin-top: 80px;
+}
+
+footer, .links {
+  list-style: none;
+  font-weight: bold;
+  padding: 35px 0 23px;
+  margin: 0;
+}
+
+.links a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+  font-family: Oswald, sans-serif;
+}
+
+.navn, .footslogan {
+  color: darkgrey;
+  font-size: 120%;
+  font-family: Corbel, sans-serif;
+}
+
+/**/
+
+/*# sourceMappingURL=galleri.css.map */
