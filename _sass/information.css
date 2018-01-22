@@ -1,10 +1,6 @@
 /* {
   box-sizing: border-box;
 }*/
-.top, .middle, .bottom {
-  font-size: 160%;
-}
-
 h1 {
   font-size: 400%;
   color: rgba(136, 63, 165, 0.82);
@@ -54,7 +50,6 @@ h2 {
   background-color: #d0d0d0;
 }
 
-/* overskrifterne */
 .middle {
   border-style: hidden;
   width: 60%;
@@ -92,7 +87,8 @@ h2 {
 }
 
 .background {
-  margin: 0;
+  margin-left: 0%;
+  margin-right: 0%;
   width: 100%;
   background-color: #e9e9e9;
 }
@@ -144,10 +140,10 @@ footer {
           box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%;
+  width: 90%;
   text-align: center;
   padding: 45px;
-  margin-top: 80px;
+  margin: auto;
 }
 
 /*footer,*/
@@ -182,8 +178,12 @@ footer {
     font-size: 1.1em;
   }
 
-  .top, .middle, .bottom {
-    font-size: 120%;
+  .test2 {
+    font-size: 0.56em;
+  }
+
+  .test {
+    font-size: 0.56em;
   }
 
   .navbox a {
@@ -197,20 +197,21 @@ footer {
   }
 
   .navn, .footslogan {
-    font-size: 1.0em;
+    font-size: 1.3em;
   }
 
   .background {
-    margin: auto;
-    width: 90%;
-  }
-
-  footer {
-    width: 90%;
-    margin: auto;
+    margin: 0;
+    width: 100%;
   }
 }
 @media screen and (min-width: 758px) {
+  .background {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+
   .glogo {
     margin-left: 5%;
     margin-top: 1%;
@@ -231,8 +232,5 @@ footer {
     font-size: 1.6em;
   }
 }
-@media screen and (min-width: 900px) {
-  .navbox {
-    font-size: 1.2em;
-  }
-}
+
+/*# sourceMappingURL=information.css.map */

@@ -12,17 +12,17 @@ body {
 }
 
 .background {
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
   background-color: #e9e9e9;
 }
 
 /*Mathias har stået for*/
 .glogo {
-  width: 30%;
+  width: 35%;
   height: auto;
-  margin-left: 5%;
+  margin-left: 0%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -37,10 +37,9 @@ body {
 }
 
 .navbox a:hover {
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
   color: rgba(136, 63, 165, 0.82);
-  text-shadow: 0 0 0.2em black;
 }
 
 .kontakt {
@@ -105,7 +104,7 @@ body {
 .greybox4 {
   background: #d0d0d0;
   margin-top: 3%;
-  margin-left: 4.5%;
+  margin-left: 10%;
   margin-bottom: 5%;
   padding-bottom: 1%;
   width: 30%;
@@ -113,7 +112,7 @@ body {
 
 .greybox5 {
   background: #d0d0d0;
-  margin-right: 4.8%;
+  margin-right: 10%;
   padding-bottom: 3.5%;
   margin-bottom: 2%;
   width: 30%;
@@ -160,9 +159,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 /*This box class is for lotte*/
@@ -175,8 +173,8 @@ body {
 }*/
 h1 {
   font-size: 1em;
-  color: rgba(136, 63, 165, 0.82);
-  font-family: Oswald, sans-serif;
+  color: black;
+  font-family: black;
   width: 100%;
   height: auto;
   text-align: center;
@@ -184,8 +182,8 @@ h1 {
 
 h2 {
   font-size: 1em;
-  color: rgba(136, 63, 165, 0.82);
-  font-family: Corbel, sans-serif;
+  color: black;
+  font-family: black;
   margin-left: 1em;
   text-align: center;
 }
@@ -223,52 +221,170 @@ footer, .links {
   display: inline-block;
   text-decoration: none;
   color: white;
-  font-size: 150%;
+  font-size: 110%;
   font-family: Oswald, sans-serif;
 }
 
 .navn, .footslogan {
   color: darkgrey;
-  font-size: 120%;
+  font-size: 1em;
   font-family: Corbel, sans-serif;
+}
+
+footer p {
+  color: white;
 }
 
 @media screen and (max-width: 890px) and (min-width: 660px) {
   h1 {
-    font-size: 1.5%;
+    font-size: 80%;
   }
 
   h2 {
-    font-size: 1.5%;
+    font-size: 70%;
   }
 }
 @media screen and (max-width: 660px) and (min-width: 420px) {
   h1 {
-    font-size: 1.5%;
+    font-size: 60%;
   }
 
   h2 {
-    font-size: 1.5%;
+    font-size: 50%;
   }
 }
 @media screen and (max-width: 420px) and (min-width: 360px) {
   h1 {
-    font-size: 0.5%;
+    font-size: 50%;
   }
 
   h2 {
-    font-size: 0.5%;
+    font-size: 40%;
   }
 }
-@media screen and (max-width: 683px) and (min-width: 497px) {
+@media screen and (min-width: 360px) {
+  .links a {
+    font-size: 1em;
+  }
+
+  .navbox a {
+    font-size: 0.6em;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .links {
+    font-size: 1em;
+  }
+
+  .navn, .footslogan {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 490px) {
+  .links a {
+    font-size: 0.8em;
+  }
+
+  .navbox a {
+    font-size: 0.8em;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .links {
+    font-size: 1.7em;
+  }
+
+  .navn, .footslogan {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 758px) {
+  .background {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+
+  .glogo {
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .navbox a {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1.1em;
+  }
+
+  .links {
+    font-size: 2.5em;
+  }
+
+  .navn, .footslogan {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 900px) {
+  .navbox {
+    font-size: 1.2em;
+  }
+}
+/*
+@media screen and (max-width: 683px) and (min-width: 574px) {
+  .navbox {
+    font-size: 13px;
+  }
+  .footslogan {
+    font-size: 18px;
+  }
+  .background {
+  margin-left: 5%;
+  margin-right: 5%;
+  width:90%;
+}
+}
+
+@media screen and (max-width: 574px) and (min-width: 450px) {
   .navbox {
     font-size: 10px;
   }
-}
-@media screen and (max-width: 497px) and (min-width: 360px) {
-  .navbox {
-    font-size: 7px;
+  .footslogan {
+    font-size: 15px;
   }
+  .links {
+    font-size: 12px;
+  }
+  .navn {
+    font-size: 15px;
+  }
+  .background {
+  margin-left: 5%;
+  margin-right: 5%;
+  width:90%;
+}
 }
 
-/*# sourceMappingURL=style1.css.map */
+
+@media screen and (max-width: 450px) and (min-width: 360px) {
+  .navbox {
+    font-size: 8px;
+  }
+  .footslogan {
+    font-size: 10px;
+}
+.links {
+  font-size: 8px;
+  }
+  .navn {
+    font-size: 10px;
+  }
+  .background {
+  margin-left: 5%;
+  margin-right: 5%;
+  width:90%;
+}
+}
+*/

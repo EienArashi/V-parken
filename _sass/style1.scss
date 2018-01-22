@@ -17,37 +17,36 @@
   }
 
   .background {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-    background-color: $bgcolor;
-  }
+  margin-left: 0%;
+  margin-right: 0%;
+  width:100%;
+  background-color: $bgcolor;
+}
 
   /*Mathias har stået for*/
 
   .glogo {
-    width: 30%;
-    height: auto;
-    margin-left: 5%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
-  .navbox {
-    text-align: center;
-    background-color:$navcolor;
-    margin-bottom: 8%;
-    width:100%;
-    padding-top: 1.7%;
-    padding-bottom: 1.7%;
-  }
+  width: 35%;
+  height: auto;
+  margin-left: 0%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 
-  .navbox a:hover{
+.navbox {
+  text-align: center;
+  background-color:$navcolor;
+  margin-bottom: 8%;
+  width:100%;
+  padding-top: 1.7%;
+  padding-bottom: 1.7%;
+}
 
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    color: $primarycolor;
-    text-shadow: 0 0 0.2em black;
-  }
+.navbox a:hover{
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+color: $primarycolor;
+}
 
 
   .kontakt {
@@ -113,7 +112,7 @@
   .greybox4 {
     background: $greybox;
     margin-top: 3%;
-    margin-left: 4.5%;
+    margin-left: 10%;
     margin-bottom: 5%;
     padding-bottom: 1%;
     width: 30%;
@@ -121,7 +120,7 @@
 
   .greybox5 {
     background: $greybox;
-    margin-right: 4.8%;
+    margin-right: 10%;
     padding-bottom: 3.5%;
     margin-bottom: 2%;
     width: 30%;
@@ -156,7 +155,7 @@
   .box2 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   /*This box class is for lotte*/
@@ -170,8 +169,8 @@
 
   h1 {
   font-size: 1em;
-  color:$primarycolor;
-  font-family: $overskrift;
+  color: black;
+  font-family: black;
   width: 100%;
   height: auto;
   text-align: center;
@@ -179,8 +178,8 @@
 
   h2 {
     font-size: 1em;
-    color:$primarycolor;
-    font-family: $undertitel;
+    color: black;
+    font-family: black;
     margin-left: 1em;
     text-align: center;
   }
@@ -199,65 +198,179 @@
   	background-color: $navcolor;
   	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   	box-sizing: border-box;
-  	width: 100%;
-  	text-align: center;
-  	padding: 45px;
-  	margin-top: 80px;
-  }
-  footer, .links{
-  	list-style: none;
-  	font-weight: bold;
-  	padding: 35px 0 23px;
-  	margin: 0;
-  }
-  .links a{
-  	display:inline-block;
-  	text-decoration: none;
-  	color: white;
-    font-size:150%;
+    width: 100%;
+    text-align: center;
+    padding: 45px;
+    margin-top: 80px;
+    }
+    footer, .links{
+    list-style: none;
+    font-weight: bold;
+    padding: 35px 0 23px;
+    margin: 0;
+    }
+    .links a{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    font-size:110%;
     font-family: $overskrift;
-  }
-  .navn, .footslogan {
+    }
+    .navn, .footslogan {
     color:darkgrey;
-    font-size: 120%;
+    font-size: 1em;
     font-family: $undertitel;
-  }
+    }
+
+  footer p {
+color:white;
+}
 
 @media screen and (max-width: 890px) and (min-width: 660px) {
   h1 {
-    font-size: 1.5%;
+    font-size: 80%;
   }
   h2 {
-    font-size: 1.5%;
+    font-size: 70%;
   }
 }
 
 @media screen and (max-width: 660px) and (min-width: 420px) {
   h1 {
-    font-size: 1.5%;
+    font-size: 60%;
   }
   h2 {
-    font-size: 1.5%;
+    font-size: 50%;
   }
 }
 
 @media screen and (max-width: 420px) and (min-width: 360px) {
   h1 {
-    font-size: 0.5%;
+    font-size: 50%;
   }
   h2 {
-    font-size: 0.5%;
+    font-size: 40%;
   }
 }
 
-@media screen and (max-width: 683px) and (min-width: 497px) {
+@media screen and (min-width: 360px) {
+.links a{
+  font-size: 1em;
+}
+
+.navbox a{
+font-size: 0.6em;
+margin-left: 4%;
+margin-right:4%;
+}
+.links {
+  font-size:1em;
+}
+.navn, .footslogan {
+  font-size: 1.5em;
+}
+}
+
+@media screen and (min-width: 490px) {
+.links a{
+  font-size:0.8em;
+}
+
+.navbox a{
+font-size: 0.8em;
+margin-left: 4%;
+margin-right:4%;
+}
+.links {
+  font-size:1.7em;
+}
+.navn, .footslogan {
+  font-size: 1.3em;
+}
+}
+
+@media screen and (min-width: 758px) {
+.background {
+  margin-left: 5%;
+  margin-right: 5%;
+  width:90%;
+}
+.glogo {
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.navbox a{
+margin-left: 4%;
+margin-right:4%;
+font-size: 1.1em;
+}
+.links {
+  font-size:2.5em;
+}
+.navn, .footslogan {
+  font-size: 1.6em;
+}
+}
+@media screen and (min-width: 900px) {
+.navbox {
+  font-size:1.2em;
+}
+}
+
+/*
+@media screen and (max-width: 683px) and (min-width: 574px) {
+  .navbox {
+    font-size: 13px;
+  }
+  .footslogan {
+    font-size: 18px;
+  }
+  .background {
+  margin-left: 5%;
+  margin-right: 5%;
+  width:90%;
+}
+}
+
+@media screen and (max-width: 574px) and (min-width: 450px) {
   .navbox {
     font-size: 10px;
   }
+  .footslogan {
+    font-size: 15px;
+  }
+  .links {
+    font-size: 12px;
+  }
+  .navn {
+    font-size: 15px;
+  }
+  .background {
+  margin-left: 5%;
+  margin-right: 5%;
+  width:90%;
+}
 }
 
-@media screen and (max-width: 497px) and (min-width: 360px) {
+
+@media screen and (max-width: 450px) and (min-width: 360px) {
   .navbox {
-    font-size: 7px;
+    font-size: 8px;
   }
+  .footslogan {
+    font-size: 10px;
 }
+.links {
+  font-size: 8px;
+  }
+  .navn {
+    font-size: 10px;
+  }
+  .background {
+  margin-left: 5%;
+  margin-right: 5%;
+  width:90%;
+}
+}
+*/

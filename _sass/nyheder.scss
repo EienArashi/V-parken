@@ -5,23 +5,17 @@
 @import "greybox";
 @import "navcolor";
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding:0;
-}
-
 .glogo {
   width: 35%;
   height: auto;
-  margin-left: 5%;
+  margin-left: 0%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
 .background{
-  margin-left: 5%;
-  margin-right: 5%;
-  width:90%;
+  margin-left: 0%;
+  margin-right: 0%;
+  width:100%;
   background-color: $bgcolor;
 }
 
@@ -33,40 +27,41 @@
   padding-top: 1.7%;
   padding-bottom: 1.7%;
 }
-
 .navbox a:hover{
-
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
   color: $primarycolor;
-  text-shadow: 0 0 0.2em black;
 }
 
+.parkour:hover, .ph:hover, .kultur:hover, .graff:hover{
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  opacity: 0.6;
+}
 
 .nyheder {
   color:$primarycolor;
   font-family: $undertitel;
   text-decoration: none;
   font-weight:bold;
-  margin-left: 4%;
-  margin-right:4%;
-  font-size: 110%;
+  margin-left: 2%;
+  margin-right:2%;
+  font-size: 0.6em;
 }
-
 .aktiviteter, .information, .galleri, .kontakt{
   color:white;
   text-decoration: none;
   font-family: $undertitel;
   font-weight:bold;
-  margin-left: 4%;
-  margin-right:4%;
-  font-size: 110%;
+  margin-left: 2%;
+  margin-right:2%;
+  font-size: 0.6em;
 }
 
 .help {
-  width:60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width:90%;
+  margin-left: 5%;
+  margin-right: 5%;
   font-size: 0;
 }
 
@@ -86,10 +81,10 @@ width:50%;
 }
 
 .bignews {
-width:60%;
-margin-left: 20%;
-margin-right: 20%;
-margin-bottom: 5%;
+width:90%;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 10%;
 background-color: $greybox;
 }
 
@@ -116,44 +111,113 @@ margin-bottom: 1%;
   text-align: center;
   font-family: $overskrift;
   background-color:$primarycolor;
-  font-size:120%;
+  font-size:1.1em;
   color:white;
+  margin-top: 0;
 }
 .newstext{
   font-family: $undertitel;
   color:black;
   word-break:keep-all;
   width: 100%;
+  font-size:0.9em;
 }
 
-  footer{
-	background-color: $navcolor;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: center;
-	padding: 45px;
-	margin-top: 80px;
+footer p {
+color:white;
 }
-
-
+footer{
+background-color: $navcolor;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+width: 100%;
+text-align: center;
+padding: 45px;
+margin-top: 80px;
+}
 footer, .links{
-	list-style: none;
-	font-weight: bold;
-	padding: 35px 0 23px;
-	margin: 0;
+list-style: none;
+font-weight: bold;
+padding: 35px 0 23px;
+margin: 0;
 }
-
 .links a{
-	display:inline-block;
-	text-decoration: none;
-	color: white;
-  font-size:150%;
-  font-family: $overskrift;
+display:inline-block;
+text-decoration: none;
+color: white;
+font-size:110%;
+font-family: $overskrift;
+}
+.navn, .footslogan {
+color:darkgrey;
+font-size: 1em;
+font-family: $undertitel;
 }
 
+@media screen and (min-width: 490px) {
+.links a{
+  font-size:0.8em;
+}
+.tilbyder p
+{
+font-size:1.1em;
+}
+.test2 {
+  font-size: 0.56em;
+}
+.test {
+  font-size: 0.56em;
+}
+.navbox a{
+font-size: 0.8em;
+margin-left: 4%;
+margin-right:4%;
+}
+.links {
+  font-size:1.9em;
+}
 .navn, .footslogan {
-  color:darkgrey;
-  font-size: 120%;
-  font-family: $undertitel;
+  font-size: 1.3em;
+}
+
+.nyhedstitel{
+  font-size:1.4em;
+}
+.newstext{
+  font-size:1.2em;
+}
+}
+@media screen and (min-width: 758px) {
+.background {
+  margin-left: 5%;
+  margin-right: 5%;
+  width:90%;
+}
+.glogo {
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.navbox a{
+margin-left: 4%;
+margin-right:4%;
+font-size: 1.1em;
+}
+.links {
+  font-size:2.5em;
+}
+.navn, .footslogan {
+  font-size: 1.6em;
+}
+.nyhedstitel{
+  font-size:1.6em;
+}
+.newstext{
+  font-size:1.4em;
+}
+}
+@media screen and (min-width: 900px) {
+.navbox {
+  font-size:1.2em;
+}
 }

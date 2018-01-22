@@ -1,0 +1,325 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 56px;
+  color: black;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Logo */
+.glogo {
+  width: 35%;
+  height: auto;
+  margin-left: 0%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.background {
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
+  background-color: #e9e9e9;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/**/
+/**/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*The navigation bar*/
+.navbox {
+  text-align: center;
+  background-color: #1c1c1c;
+  margin-bottom: 8%;
+  width: 100%;
+  padding-top: 1.7%;
+  padding-bottom: 1.7%;
+}
+
+.navbox a:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  color: rgba(136, 63, 165, 0.82);
+}
+
+.galleri {
+  color: rgba(136, 63, 165, 0.82);
+  font-family: Corbel, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 0.6em;
+}
+
+.nyheder, .information, .aktiviteter, .kontakt {
+  color: white;
+  text-decoration: none;
+  font-family: Corbel, sans-serif;
+  font-weight: bold;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 0.6em;
+}
+
+/*----------------------------------------------------------------------------*/
+/*The hover effect*/
+.music:hover, .explorer:hover, .voice:hover, .dance:hover, .eidGal:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  opacity: 0.6;
+}
+
+/**/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/* Overordnede Galleri side*/
+/*.GalleriClass{
+  background-color:$bgcolor;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}*/
+img {
+  height: 25%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.GreyGalleri {
+  background-color: #d0d0d0;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*Nedenfor er de individuelle Galleri sider*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*Dance Galleri Sider*/
+.DanceGalleri {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.DanceGalleri img {
+  height: 25%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.DanceBilleder {
+  margin: 5%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*VoiceGalleri*/
+.VoiceGalleri {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.VoiceGalleri img {
+  height: 25%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.VoiceBilleder {
+  margin: 5%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*ExplorerGalleri*/
+.ExplorerGalleri {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.ExplorerGalleri img {
+  height: 25%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*EidGalleri*/
+.ExplorerGalleri {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.ExplorerGalleri img {
+  height: 25%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*MusicGalleri*/
+.MusicGalleri {
+  background-color: #e9e9e9;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.MusicGalleri img {
+  height: 25%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.MusicBilleder {
+  margin: 5%;
+}
+
+/*----------------------------------------------------------------------------*/
+/* den legendariske footer!*/
+footer p {
+  color: white;
+}
+
+footer {
+  background-color: #1c1c1c;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding: 45px;
+  margin-top: 80px;
+}
+
+footer, .links {
+  list-style: none;
+  font-weight: bold;
+  padding: 35px 0 23px;
+  margin: 0;
+}
+
+.links a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 110%;
+  font-family: Oswald, sans-serif;
+}
+
+.navn, .footslogan {
+  color: darkgrey;
+  font-size: 1em;
+  font-family: Corbel, sans-serif;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*media queries*/
+@media screen and (min-width: 360px) {
+  .links a {
+    font-size: 0.8em;
+  }
+
+  .tilbyder p {
+    font-size: 1.1em;
+  }
+
+  .test2 {
+    font-size: 0.56em;
+  }
+
+  .test {
+    font-size: 0.56em;
+  }
+
+  .navbox a {
+    font-size: 0.8em;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .links {
+    font-size: 1.9em;
+  }
+
+  .navn, .footslogan {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 758px) {
+  .background {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+
+  .glogo {
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .navbox a {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1.1em;
+  }
+
+  .links {
+    font-size: 2.5em;
+  }
+
+  .navn, .footslogan {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 900px) {
+  .navbox {
+    font-size: 1.2em;
+  }
+}
+
+/*# sourceMappingURL=GalStyle.css.map */

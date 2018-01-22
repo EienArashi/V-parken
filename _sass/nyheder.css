@@ -1,22 +1,15 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .glogo {
   width: 35%;
   height: auto;
-  margin-left: 5%;
+  margin-left: 0%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
 
 .background {
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
   background-color: #e9e9e9;
 }
 
@@ -30,10 +23,15 @@
 }
 
 .navbox a:hover {
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
   color: rgba(136, 63, 165, 0.82);
-  text-shadow: 0 0 0.2em black;
+}
+
+.parkour:hover, .ph:hover, .kultur:hover, .graff:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  opacity: 0.6;
 }
 
 .nyheder {
@@ -41,9 +39,9 @@
   font-family: Corbel, sans-serif;
   text-decoration: none;
   font-weight: bold;
-  margin-left: 4%;
-  margin-right: 4%;
-  font-size: 110%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 0.6em;
 }
 
 .aktiviteter, .information, .galleri, .kontakt {
@@ -51,15 +49,15 @@
   text-decoration: none;
   font-family: Corbel, sans-serif;
   font-weight: bold;
-  margin-left: 4%;
-  margin-right: 4%;
-  font-size: 110%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 0.6em;
 }
 
 .help {
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   font-size: 0;
 }
 
@@ -79,10 +77,10 @@
 }
 
 .bignews {
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 5%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
   background-color: #d0d0d0;
 }
 
@@ -109,8 +107,9 @@
   text-align: center;
   font-family: Oswald, sans-serif;
   background-color: rgba(136, 63, 165, 0.82);
-  font-size: 120%;
+  font-size: 1.1em;
   color: white;
+  margin-top: 0;
 }
 
 .newstext {
@@ -118,6 +117,11 @@
   color: black;
   word-break: keep-all;
   width: 100%;
+  font-size: 0.9em;
+}
+
+footer p {
+  color: white;
 }
 
 footer {
@@ -143,14 +147,92 @@ footer, .links {
   display: inline-block;
   text-decoration: none;
   color: white;
-  font-size: 150%;
+  font-size: 110%;
   font-family: Oswald, sans-serif;
 }
 
 .navn, .footslogan {
   color: darkgrey;
-  font-size: 120%;
+  font-size: 1em;
   font-family: Corbel, sans-serif;
 }
 
-/*# sourceMappingURL=nyheder.css.map */
+@media screen and (min-width: 490px) {
+  .links a {
+    font-size: 0.8em;
+  }
+
+  .tilbyder p {
+    font-size: 1.1em;
+  }
+
+  .test2 {
+    font-size: 0.56em;
+  }
+
+  .test {
+    font-size: 0.56em;
+  }
+
+  .navbox a {
+    font-size: 0.8em;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .links {
+    font-size: 1.9em;
+  }
+
+  .navn, .footslogan {
+    font-size: 1.3em;
+  }
+
+  .nyhedstitel {
+    font-size: 1.4em;
+  }
+
+  .newstext {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 758px) {
+  .background {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+
+  .glogo {
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .navbox a {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1.1em;
+  }
+
+  .links {
+    font-size: 2.5em;
+  }
+
+  .navn, .footslogan {
+    font-size: 1.6em;
+  }
+
+  .nyhedstitel {
+    font-size: 1.6em;
+  }
+
+  .newstext {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 900px) {
+  .navbox {
+    font-size: 1.2em;
+  }
+}
